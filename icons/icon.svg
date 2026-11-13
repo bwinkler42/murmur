@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x1="0" x2="1" y1="0.1" y2="1">
+  <stop offset="0" stop-color="#a0dacc"/><stop offset=".33" stop-color="#a5c4e2"/>
+  <stop offset=".66" stop-color="#e8bce0"/><stop offset="1" stop-color="#ffdab7"/>
+ </linearGradient>
+ <radialGradient id="halo"><stop stop-color="#fff9dd" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="body" x1=".1" y1="0" x2=".8" y2="1"><stop stop-color="#4d5266"/><stop offset="1" stop-color="#252d40"/></linearGradient>
+ <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#646d82"/><stop offset="1" stop-color="#303a50"/></linearGradient>
+</defs>
+<rect width="512" height="512" rx="103" fill="url(#sky)"/>
+<circle cx="280" cy="214" r="218" fill="url(#halo)"/>
+<g fill="#fff8e9" opacity=".75">
+ <path d="M80 123 L84 138 L99 142 L84 146 L80 161 L76 146 L61 142 L76 138Z"/>
+ <path d="M402 87 L406 99 L418 103 L406 107 L402 119 L398 107 L386 103 L398 99Z"/>
+ <circle cx="422" cy="325" r="5"/><circle cx="90" cy="350" r="7"/>
+</g>
+<!-- tails -->
+<path d="M170 313 L94 364 L154 356 L117 401 L201 361" fill="#313b51"/>
+<!-- feet -->
+<path d="M229 390 Q227 413 208 431 M232 409 Q224 426 240 433 M287 392 Q292 420 310 430 M290 413 Q282 430 268 434" fill="none" stroke="#bd8292" stroke-width="10" stroke-linecap="round"/>
+<!-- wings -->
+<path d="M205 298 Q83 215 123 164 Q165 177 240 244 Q216 209 209 158 Q297 205 290 274" fill="url(#wing)"/>
+<path d="M310 282 Q388 213 413 183 Q448 253 363 333" fill="#414b60"/>
+<!-- round body -->
+<ellipse cx="258" cy="317" rx="119" ry="105" fill="url(#body)"/>
+<!-- head -->
+<circle cx="264" cy="229" r="103" fill="url(#body)"/>
+<path d="M177 185 Q235 116 291 155" stroke="#778098" stroke-width="13" opacity=".2" fill="none" stroke-linecap="round"/>
+<!-- tiny feather tuft -->
+<path d="M235 138 Q227 113 246 118 Q264 121 269 143 M266 137 Q280 114 290 124 Q297 129 291 143" fill="#424d62"/>
+<!-- beak behind eye line -->
+<path d="M340 259 Q405 269 380 291 Q357 301 336 290Z" fill="#dfab91"/>
+<path d="M343 280 Q377 280 380 291 Q358 309 334 293" fill="#c88d85"/>
+<!-- two eyes -->
+<ellipse cx="234" cy="225" rx="27" ry="31" fill="#fff8f0"/>
+<ellipse cx="302" cy="232" rx="24" ry="29" fill="#fff8f0"/>
+<circle cx="241" cy="229" r="14" fill="#283349"/>
+<circle cx="310" cy="235" r="12" fill="#283349"/>
+<circle cx="235" cy="221" r="6" fill="#ffffff"/>
+<circle cx="305" cy="228" r="5" fill="#ffffff"/>
+<!-- cheek -->
+<ellipse cx="204" cy="280" rx="17" ry="10" fill="#df9b9e" opacity=".55"/>
+<!-- little wing feather on chest -->
+<path d="M217 308 Q190 314 190 347 Q218 362 245 340" fill="#4f5970"/>
+<!-- cream little heart -->
+<path d="M279 347 C260 328 246 350 279 375 C311 351 297 329 279 347Z" fill="#f9d9e8" opacity=".85"/>
+</svg>
